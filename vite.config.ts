@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   // Set the base path to your repository name for GitHub Pages
-  base: "./",
+  base: "/inmin-try-find-magic/",
   build: {
     outDir: "dist",
   },
