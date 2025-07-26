@@ -28,7 +28,7 @@ export const mockProducts: Product[] = [
     originalPrice: 1299,
     rating: 4.8,
     reviews: 2547,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Apple",
     description:
       "The most advanced iPhone with titanium design and A17 Pro chip",
@@ -55,7 +55,7 @@ export const mockProducts: Product[] = [
     price: 1199,
     rating: 4.7,
     reviews: 3241,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Samsung",
     description: "AI-powered flagship with S Pen and 200MP camera",
     features: [
@@ -82,7 +82,7 @@ export const mockProducts: Product[] = [
     originalPrice: 1099,
     rating: 4.6,
     reviews: 1876,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Google",
     description: "AI-first smartphone with Magic Eraser and Night Sight",
     features: [
@@ -103,7 +103,7 @@ export const mockProducts: Product[] = [
     price: 799,
     rating: 4.5,
     reviews: 2103,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "OnePlus",
     description: "Flagship killer with Snapdragon 8 Gen 3 and 120W charging",
     features: [
@@ -127,7 +127,7 @@ export const mockProducts: Product[] = [
     originalPrice: 229,
     rating: 4.6,
     reviews: 1832,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Samsung",
     description: "Premium wireless earbuds with active noise cancellation",
     features: ["ANC", "Wireless charging", "IPX7 waterproof", "8-hour battery"],
@@ -143,7 +143,7 @@ export const mockProducts: Product[] = [
     price: 249,
     rating: 4.8,
     reviews: 4521,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Apple",
     description: "Next-level ANC with adaptive transparency and spatial audio",
     features: [
@@ -165,7 +165,7 @@ export const mockProducts: Product[] = [
     originalPrice: 449,
     rating: 4.9,
     reviews: 3678,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Sony",
     description: "Industry-leading noise canceling over-ear headphones",
     features: ["30-hour battery", "Premium ANC", "LDAC codec", "Quick charge"],
@@ -181,7 +181,7 @@ export const mockProducts: Product[] = [
     price: 279,
     rating: 4.7,
     reviews: 2341,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Bose",
     description: "World-class noise cancellation in true wireless earbuds",
     features: [
@@ -204,7 +204,7 @@ export const mockProducts: Product[] = [
     price: 1299,
     rating: 4.9,
     reviews: 1205,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Apple",
     description: "Supercharged by M3 chip, up to 18 hours of battery life",
     features: ["M3 chip", "13.6-inch Liquid Retina", "512GB SSD", "8GB RAM"],
@@ -221,7 +221,7 @@ export const mockProducts: Product[] = [
     originalPrice: 1399,
     rating: 4.6,
     reviews: 987,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Dell",
     description:
       "Premium ultrabook with InfinityEdge display and haptic touchpad",
@@ -238,7 +238,7 @@ export const mockProducts: Product[] = [
     price: 1799,
     rating: 4.8,
     reviews: 1456,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Lenovo",
     description: "Business ultrabook with military-grade durability",
     features: [
@@ -259,7 +259,7 @@ export const mockProducts: Product[] = [
     price: 1499,
     rating: 4.7,
     reviews: 2234,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "ASUS",
     description: "Gaming laptop with AMD Ryzen 9 and RTX 4060",
     features: ["AMD Ryzen 9 7940HS", "RTX 4060", "16GB RAM", "1TB SSD"],
@@ -277,7 +277,7 @@ export const mockProducts: Product[] = [
     price: 1099,
     rating: 4.8,
     reviews: 1876,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Apple",
     description:
       "Professional tablet with M2 chip and Liquid Retina XDR display",
@@ -299,7 +299,7 @@ export const mockProducts: Product[] = [
     price: 1199,
     rating: 4.7,
     reviews: 1243,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Samsung",
     description: "Large productivity tablet with S Pen included",
     features: [
@@ -321,7 +321,7 @@ export const mockProducts: Product[] = [
     originalPrice: 249,
     rating: 4.5,
     reviews: 3421,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Amazon",
     description: "High-fidelity smart speaker with 3D audio and Alexa",
     features: [
@@ -342,7 +342,7 @@ export const mockProducts: Product[] = [
     price: 229,
     rating: 4.4,
     reviews: 2156,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Google",
     description: "Smart display with Google Assistant and security camera",
     features: [
@@ -363,7 +363,7 @@ export const mockProducts: Product[] = [
     price: 179,
     rating: 4.6,
     reviews: 4521,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Philips",
     description: "Color-changing smart lights with bridge and app control",
     features: [
@@ -387,7 +387,7 @@ export const mockProducts: Product[] = [
     originalPrice: 129,
     rating: 4.5,
     reviews: 967,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Urban Style",
     description: "Classic vintage-style denim jacket with distressed details",
     features: [
@@ -410,7 +410,7 @@ export const mockProducts: Product[] = [
     originalPrice: 799,
     rating: 4.8,
     reviews: 432,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Savile & Co",
     description: "Tailored wool suit perfect for business and formal occasions",
     features: ["100% wool", "Slim fit", "Lined jacket", "Flat-front pants"],
@@ -428,7 +428,7 @@ export const mockProducts: Product[] = [
     originalPrice: 199,
     rating: 4.6,
     reviews: 2103,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "RunFast",
     description: "High-performance running shoes with advanced cushioning",
     features: [
@@ -450,7 +450,7 @@ export const mockProducts: Product[] = [
     price: 79,
     rating: 4.7,
     reviews: 1456,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Bloom & Co",
     description: "Lightweight floral dress perfect for summer occasions",
     features: ["Breathable fabric", "Midi length", "Elastic waist", "Pockets"],
@@ -468,7 +468,7 @@ export const mockProducts: Product[] = [
     originalPrice: 199,
     rating: 4.6,
     reviews: 723,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Elegance",
     description: "Luxurious silk blouse with elegant draping",
     features: ["100% silk", "Button-front", "Long sleeves", "Professional cut"],
@@ -485,7 +485,7 @@ export const mockProducts: Product[] = [
     price: 89,
     rating: 4.5,
     reviews: 2341,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Denim Dreams",
     description: "Flattering high-waisted jeans with stretch comfort",
     features: [
@@ -507,7 +507,7 @@ export const mockProducts: Product[] = [
     price: 49,
     rating: 4.4,
     reviews: 1876,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Classic Fit",
     description: "Comfortable cotton polo shirt for everyday wear",
     features: [
@@ -530,7 +530,7 @@ export const mockProducts: Product[] = [
     originalPrice: 249,
     rating: 4.7,
     reviews: 876,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Oxford & Co",
     description: "Handcrafted leather oxford shoes for professional wear",
     features: [
@@ -554,7 +554,7 @@ export const mockProducts: Product[] = [
     price: 299,
     rating: 4.8,
     reviews: 3421,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Ray-Ban",
     description: "Iconic aviator sunglasses with timeless style",
     features: [
@@ -576,7 +576,7 @@ export const mockProducts: Product[] = [
     originalPrice: 199,
     rating: 4.4,
     reviews: 856,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "VisionCraft",
     description: "Stylish reading glasses with blue light protection",
     features: [
@@ -597,7 +597,7 @@ export const mockProducts: Product[] = [
     price: 89,
     rating: 4.5,
     reviews: 1234,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "ActiveVision",
     description: "Durable sports glasses with impact resistance",
     features: [
@@ -619,7 +619,7 @@ export const mockProducts: Product[] = [
     originalPrice: 499,
     rating: 4.9,
     reviews: 567,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Luxe Optics",
     description: "Premium designer frames with Italian craftsmanship",
     features: [
@@ -643,7 +643,7 @@ export const mockProducts: Product[] = [
     originalPrice: 249,
     rating: 4.7,
     reviews: 1892,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "GlowLux",
     description: "Complete skincare routine with premium ingredients",
     features: ["Cleanser", "Serum", "Moisturizer", "Eye cream", "Travel sizes"],
@@ -658,7 +658,7 @@ export const mockProducts: Product[] = [
     price: 69,
     rating: 4.6,
     reviews: 1247,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "ColorPro",
     description: "42-shade eyeshadow palette with blendable formula",
     features: ["42 shades", "Matte & shimmer", "Long-lasting", "Cruelty-free"],
@@ -674,7 +674,7 @@ export const mockProducts: Product[] = [
     originalPrice: 99,
     rating: 4.5,
     reviews: 2876,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "YouthGlow",
     description: "Powerful anti-aging serum with retinol and vitamin C",
     features: [
@@ -694,7 +694,7 @@ export const mockProducts: Product[] = [
     price: 45,
     rating: 4.4,
     reviews: 1654,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "NaturalLocks",
     description: "Sulfate-free shampoo and conditioner for all hair types",
     features: [
@@ -715,7 +715,7 @@ export const mockProducts: Product[] = [
     originalPrice: 179,
     rating: 4.7,
     reviews: 987,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "SalonPro",
     description: "Ionic hair dryer with multiple heat settings",
     features: [
@@ -739,7 +739,7 @@ export const mockProducts: Product[] = [
     originalPrice: 69,
     rating: 4.5,
     reviews: 2156,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "LightSmart",
     description: "Color-changing LED strips with smartphone control",
     features: [
@@ -759,7 +759,7 @@ export const mockProducts: Product[] = [
     price: 79,
     rating: 4.6,
     reviews: 987,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "ZenHome",
     description: "Ultrasonic essential oil diffuser with timer settings",
     features: [
@@ -780,7 +780,7 @@ export const mockProducts: Product[] = [
     originalPrice: 69,
     rating: 4.4,
     reviews: 3421,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "DreamComfort",
     description: "Ergonomic memory foam pillow for better sleep",
     features: [
@@ -801,7 +801,7 @@ export const mockProducts: Product[] = [
     originalPrice: 399,
     rating: 4.5,
     reviews: 1876,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "CleanBot",
     description: "Smart robot vacuum with mapping and app control",
     features: [
@@ -822,7 +822,7 @@ export const mockProducts: Product[] = [
     price: 199,
     rating: 4.7,
     reviews: 2341,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "BrewMaster",
     description: "Programmable coffee machine with built-in grinder",
     features: [
@@ -846,7 +846,7 @@ export const mockProducts: Product[] = [
     originalPrice: 89,
     rating: 4.7,
     reviews: 1634,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "FlexZone",
     description: "Non-slip yoga mat with alignment lines",
     features: [
@@ -867,7 +867,7 @@ export const mockProducts: Product[] = [
     price: 199,
     rating: 4.4,
     reviews: 2847,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "FitTech",
     description: "Advanced fitness tracker with heart rate monitoring",
     features: [
@@ -889,7 +889,7 @@ export const mockProducts: Product[] = [
     originalPrice: 399,
     rating: 4.8,
     reviews: 1245,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "PowerLift",
     description: "Space-saving adjustable dumbbells for home workouts",
     features: [
@@ -910,7 +910,7 @@ export const mockProducts: Product[] = [
     price: 89,
     rating: 4.6,
     reviews: 876,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "FightPro",
     description: "High-quality boxing gloves for training and sparring",
     features: [
@@ -933,7 +933,7 @@ export const mockProducts: Product[] = [
     originalPrice: 159,
     rating: 4.7,
     reviews: 1543,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "TrailRider",
     description: "Lightweight mountain bike helmet with MIPS technology",
     features: [
@@ -958,7 +958,7 @@ export const mockProducts: Product[] = [
     originalPrice: 79,
     rating: 4.3,
     reviews: 1234,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "ChargeFast",
     description: "Qi wireless charging pad for car dashboard",
     features: [
@@ -979,7 +979,7 @@ export const mockProducts: Product[] = [
     price: 149,
     rating: 4.6,
     reviews: 876,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "RoadWatch",
     description: "4K dash camera with night vision and GPS",
     features: [
@@ -1003,7 +1003,7 @@ export const mockProducts: Product[] = [
     originalPrice: 29,
     rating: 4.8,
     reviews: 2341,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Success Publishers",
     description:
       "Complete guide to maximizing productivity and achieving goals",
@@ -1024,7 +1024,7 @@ export const mockProducts: Product[] = [
     price: 39,
     rating: 4.7,
     reviews: 1876,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "Culinary Arts",
     description: "Professional cooking techniques and recipes",
     features: ["400 pages", "200+ recipes", "Step-by-step photos", "Hardcover"],
@@ -1042,7 +1042,7 @@ export const mockProducts: Product[] = [
     originalPrice: 99,
     rating: 4.6,
     reviews: 1543,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "LearnFun",
     description: "Hands-on STEM learning kit for kids aged 8-12",
     features: [
@@ -1062,7 +1062,7 @@ export const mockProducts: Product[] = [
     price: 149,
     rating: 4.4,
     reviews: 987,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "SkyFlyer",
     description: "Beginner-friendly drone with HD camera",
     features: ["HD camera", "30-minute flight", "Easy controls", "LED lights"],
@@ -1080,7 +1080,7 @@ export const mockProducts: Product[] = [
     price: 89,
     rating: 4.5,
     reviews: 765,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "GreenThumb",
     description: "Automated plant watering system with app control",
     features: [
@@ -1101,7 +1101,7 @@ export const mockProducts: Product[] = [
     originalPrice: 79,
     rating: 4.7,
     reviews: 1432,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "OutdoorComfort",
     description: "Lightweight folding chair for camping and outdoor events",
     features: [
@@ -1125,7 +1125,7 @@ export const mockProducts: Product[] = [
     originalPrice: 399,
     rating: 4.6,
     reviews: 1876,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "ComfortWork",
     description: "Ergonomic office chair with lumbar support",
     features: [
@@ -1146,7 +1146,7 @@ export const mockProducts: Product[] = [
     price: 249,
     rating: 4.5,
     reviews: 1234,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "https://placehold.co/400x400", // Updated URL
     brand: "StandUp",
     description: "Adjustable standing desk converter for healthier work",
     features: [
