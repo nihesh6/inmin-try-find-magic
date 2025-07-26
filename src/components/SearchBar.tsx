@@ -8,16 +8,37 @@ interface SearchBarProps {
   placeholder?: string;
 }
 
-export const SearchBar = ({ onSearch, placeholder = "Search for anything..." }: SearchBarProps) => {
+export const SearchBar = ({
+  onSearch,
+  placeholder = "Ask our AI: 'Find me comfortable shoes for long walks'...",
+}: SearchBarProps) => {
   const [query, setQuery] = useState("");
   const [isListening, setIsListening] = useState(false);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+
+  const aiSuggestions = [
+    "Find me comfortable running shoes under $200",
+    "I need professional clothes for job interviews",
+    "Show me wireless headphones for working out",
+    "Looking for luxury skincare for sensitive skin",
+    "Find affordable electronics for students",
+    "I want trendy glasses that suit my face",
+  ];
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (query.trim()) {
       onSearch(query.trim());
-      toast.success("🔍 Searching with AI magic...");
+      setShowSuggestions(false);
+      toast.success("🤖 Gemini AI is analyzing your request...");
     }
+  };
+
+  const handleSuggestionClick = (suggestion: string) => {
+    setQuery(suggestion);
+    onSearch(suggestion);
+    setShowSuggestions(false);
+    toast.success("🤖 Using AI suggestion...");
   };
 
   const handleVoiceSearch = () => {
@@ -36,7 +57,7 @@ export const SearchBar = ({ onSearch, placeholder = "Search for anything..." }: 
               <div className="pl-4 pr-3">
                 <Search className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
               </div>
-              
+
               <input
                 type="text"
                 value={query}
@@ -44,7 +65,7 @@ export const SearchBar = ({ onSearch, placeholder = "Search for anything..." }: 
                 placeholder={placeholder}
                 className="flex-1 bg-transparent border-0 py-4 text-foreground placeholder:text-muted-foreground focus:outline-none text-lg"
               />
-              
+
               <div className="flex items-center gap-2 pr-2">
                 <Button
                   type="button"
@@ -52,12 +73,14 @@ export const SearchBar = ({ onSearch, placeholder = "Search for anything..." }: 
                   size="icon"
                   onClick={handleVoiceSearch}
                   className={`hover:bg-accent transition-all ${
-                    isListening ? "text-primary animate-pulse-glow" : "text-muted-foreground"
+                    isListening
+                      ? "text-primary animate-pulse-glow"
+                      : "text-muted-foreground"
                   }`}
                 >
                   <Mic className="h-4 w-4" />
                 </Button>
-                
+
                 <Button
                   type="submit"
                   variant="magic"
@@ -71,18 +94,23 @@ export const SearchBar = ({ onSearch, placeholder = "Search for anything..." }: 
             </div>
           </div>
         </div>
-        
+
         {/* AI indicator */}
         <div className="absolute -top-2 -right-2">
           <div className="bg-gradient-primary text-primary-foreground text-xs px-2 py-1 rounded-full shadow-lg animate-bounce-gentle">
-            ✨ AI Powered
+            🤖 Gemini AI
           </div>
         </div>
       </form>
-      
+
       {/* Quick suggestions */}
       <div className="mt-4 flex flex-wrap gap-2 justify-center">
-        {["wireless headphones", "summer dresses", "smart watches", "sunglasses"].map((suggestion) => (
+        {[
+          "comfortable shoes for long walks",
+          "luxury skincare for sensitive skin",
+          "wireless headphones for gym",
+          "professional clothes for interviews",
+        ].map((suggestion) => (
           <Button
             key={suggestion}
             variant="ghost"
@@ -90,12 +118,21 @@ export const SearchBar = ({ onSearch, placeholder = "Search for anything..." }: 
             onClick={() => {
               setQuery(suggestion);
               onSearch(suggestion);
+              toast.success("🤖 Using AI suggestion...");
             }}
             className="text-muted-foreground hover:text-foreground transition-colors rounded-full border border-border hover:border-primary"
           >
             {suggestion}
           </Button>
         ))}
+      </div>
+
+      {/* AI helper text */}
+      <div className="mt-3 text-center">
+        <p className="text-xs text-muted-foreground flex items-center justify-center gap-1">
+          <Sparkles className="h-3 w-3 text-purple-400" />
+          Ask in natural language - our AI understands context and preferences
+        </p>
       </div>
     </div>
   );
