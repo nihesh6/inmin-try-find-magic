@@ -17,9 +17,4 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // Set the base path to your repository name for GitHub Pages
-  base: "/inmin-try-find-magic/",
-  build: {
-    outDir: "dist",
-  },
 }));
