@@ -1371,3 +1371,29 @@ Respond with a JSON object in this format:
     },
   };
 }
+
+export function fixProductImages(): void {
+  const basePath = import.meta.env.BASE_URL || '/inmin-try-find-magic/';
+  
+  mockProductDatabase.forEach(product => {
+    // 1. First fix the placeholder paths by ensuring they have the correct base path
+    if (product.imageUrl === '/placeholder.svg') {
+      // Remove leading slash if base path already has one
+      const fixedPath = basePath.endsWith('/') 
+        ? `${basePath}placeholder.svg`
+        : `${basePath}/placeholder.svg`;
+      
+      product.imageUrl = fixedPath;
+    }
+    
+    // 2. Optionally replace with Lorem Picsum images for better visuals
+    // Comment this line if you want to keep using placeholder.svg
+    product.imageUrl = `https://picsum.photos/seed/${product.id}/800/800`;
+  });
+  
+  console.log("✅ Product images fixed for GitHub Pages deployment");
+}
+
+// Add this line at the end of your existing code
+// This ensures images are fixed when the module is loaded
+fixProductImages();
